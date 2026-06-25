@@ -186,7 +186,7 @@ def vim_global(name, kind = string):
          ret = int(ret)
       elif kind == string:
          pass
-      return ret
+   return ret
 
 class VimAppendHandler(logging.Handler):
    def __init__(self, name):
